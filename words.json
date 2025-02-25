@@ -1,0 +1,14 @@
+[
+  {
+    "word": "example",
+    "meaning": "例、見本",
+    "example": "This is an example sentence that uses the word example.",
+    "thinkingFlow": "文脈から例示として使われているため、exampleは例を意味する。"
+  },
+  {
+    "word": "apple",
+    "meaning": "りんご",
+    "example": "I ate an apple for breakfast.",
+    "thinkingFlow": "朝食に果物を食べるという文脈から、appleはりんごを指す。"
+  }
+]

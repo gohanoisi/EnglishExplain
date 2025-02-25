@@ -1,0 +1,52 @@
+/* 背景は黒、文字は白、ハイライトはエメラルドグリーン (#50C878) */
+
+/* 全体設定 */
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#start-screen, #word-screen, #end-screen {
+  padding: 20px;
+  text-align: center;
+}
+
+/* 入力フォーム */
+input[type="number"] {
+  width: 100px;
+  padding: 5px;
+  margin: 5px;
+}
+
+/* ボタン */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* 例文の表示 */
+#example-sentence {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* 対象単語のハイライト */
+.highlight {
+  color: #50C878; /* エメラルドグリーン */
+  font-weight: bold;
+}
+
+/* 答え部分のテキスト */
+#answer-section p {
+  margin: 10px 0;
+  font-size: 18px;
+}
