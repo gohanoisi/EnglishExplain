@@ -1,14 +1,25 @@
-[
-  {
-    "word": "example",
-    "meaning": "例、見本",
-    "example": "This is an example sentence that uses the word example.",
-    "thinkingFlow": "文脈から例示として使われているため、exampleは例を意味する。"
-  },
-  {
-    "word": "apple",
-    "meaning": "りんご",
-    "example": "I ate an apple for breakfast.",
-    "thinkingFlow": "朝食に果物を食べるという文脈から、appleはりんごを指す。"
+{
+  "target1900": {
+    "sections": {
+      "1": [
+        {
+          "word": "example",
+          "meaning": "例、見本",
+          "example": "This is an example sentence that uses the word example.",
+          "thinkingFlow": "文脈から例示として使われているため、exampleは例を意味する。"
+        },
+        {
+          "word": "apple",
+          "meaning": "りんご",
+          "example": "I ate an apple for breakfast.",
+          "thinkingFlow": "朝食に果物を食べるという文脈から、appleはりんごを指す。"
+        }
+        // 以下、1セクションにつき100単語を格納
+      ],
+      "2": [
+        // セクション2の100単語（同様の形式）
+      ]
+      // 必要に応じてセクション "3", "4", … "18" を追加
+    }
   }
-]
+}
