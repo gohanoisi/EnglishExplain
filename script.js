@@ -1,9 +1,9 @@
 /* script.js */
 
-// グローバル変数の宣言
-let wordsData = [];      // JSONから読み込んだ全単語データ
+// グローバル変数
+let wordsData = {};      // JSONから読み込んだ全データ
 let currentIndex = 0;    // 現在の単語のインデックス
-let selectedWords = [];  // 範囲指定後、使用する単語リスト
+let selectedWords = [];  // 選択された単語リスト
 
 // DOM要素の取得
 const startScreen = document.getElementById('start-screen');
@@ -11,26 +11,26 @@ const wordScreen = document.getElementById('word-screen');
 const endScreen = document.getElementById('end-screen');
 const startBtn = document.getElementById('start-btn');
 const restartBtn = document.getElementById('restart-btn');
-const revealBtn = document.getElementById('reveal-btn');
+const toggleAnswerBtn = document.getElementById('toggle-answer-btn');
 const nextBtn = document.getElementById('next-btn');
 const exampleSentenceElem = document.getElementById('example-sentence');
 const meaningElem = document.getElementById('meaning');
 const thinkingFlowElem = document.getElementById('thinkingFlow');
 
-// イベントリスナーの設定
+// イベントリスナー
 startBtn.addEventListener('click', startSession);
-revealBtn.addEventListener('click', revealAnswer);
-nextBtn.addEventListener('click', showNextWord);
 restartBtn.addEventListener('click', restartSession);
+toggleAnswerBtn.addEventListener('click', toggleAnswer);
+nextBtn.addEventListener('click', showNextWord);
 
-// セッション開始の処理
+// セッション開始
 async function startSession() {
-  // ユーザーの設定を取得
   const mode = document.querySelector('input[name="mode"]:checked').value;
+  const section = document.getElementById('section-select').value;
   const rangeStart = parseInt(document.getElementById('range-start').value);
   const rangeEnd = parseInt(document.getElementById('range-end').value);
-
-  // JSONファイルから単語データを読み込む
+  
+  // JSONから単語データ読み込み
   try {
     const response = await fetch('words.json');
     wordsData = await response.json();
@@ -40,16 +40,24 @@ async function startSession() {
     return;
   }
   
-  // 入力範囲のチェック（例: 範囲内か、開始番号 <= 終了番号か）
-  if (rangeStart < 1 || rangeEnd > wordsData.length || rangeStart > rangeEnd) {
+  // JSON構造: wordsData.target1900.sections[section] が配列になっている前提
+  if (!wordsData.target1900 || !wordsData.target1900.sections || !wordsData.target1900.sections[section]) {
+    alert('指定されたセクションのデータが存在しません。');
+    return;
+  }
+  
+  const sectionWords = wordsData.target1900.sections[section];
+  
+  // 範囲チェック
+  if (rangeStart < 1 || rangeEnd > sectionWords.length || rangeStart > rangeEnd) {
     alert('正しい範囲を入力してください。');
     return;
   }
   
-  // 選択範囲の単語リストを抽出（JSONのインデックスは0始まり）
-  selectedWords = wordsData.slice(rangeStart - 1, rangeEnd);
+  // 選択範囲の単語リストを抽出（インデックス調整）
+  selectedWords = sectionWords.slice(rangeStart - 1, rangeEnd);
   
-  // モードに応じて単語リストを並び替え
+  // モードに応じて並び替え
   if (mode === 'random') {
     shuffleArray(selectedWords);
   }
@@ -58,55 +66,61 @@ async function startSession() {
   startScreen.style.display = 'none';
   wordScreen.style.display = 'block';
   
+  // 次へボタンは常に表示
+  nextBtn.style.display = 'inline-block';
+  
   showWord();
 }
 
-// 現在の単語を画面に表示
+// 現在の単語を表示
 function showWord() {
   if (currentIndex >= selectedWords.length) {
-    // 単語がすべて終了した場合、終了画面を表示
     wordScreen.style.display = 'none';
     endScreen.style.display = 'block';
     return;
   }
   
-  // 表示エリアの初期化
+  // 初期状態：回答非表示、トグルボタンは「回答を表示」
   document.getElementById('answer-section').style.display = 'none';
-  revealBtn.style.display = 'inline-block';
-  nextBtn.style.display = 'none';
+  toggleAnswerBtn.textContent = '回答を表示';
   
   const currentWord = selectedWords[currentIndex];
   
-  // 例文内の対象単語をハイライトする（大文字小文字を区別せず）
+  // 例文内の対象単語をハイライト（正規表現・大小文字区別なし）
   const regex = new RegExp(`(${currentWord.word})`, 'gi');
   const highlightedSentence = currentWord.example.replace(regex, '<span class="highlight">$1</span>');
-  
   exampleSentenceElem.innerHTML = highlightedSentence;
-  // 答え（意味と思考フロー）の設定
-  meaningElem.textContent = `意味: ${currentWord.meaning}`;
-  thinkingFlowElem.textContent = `思考フロー: ${currentWord.thinkingFlow}`;
+  
+  // 意味もハイライト（英単語とリンク）
+  meaningElem.innerHTML = '意味: <span class="highlight">' + currentWord.meaning + '</span>';
+  thinkingFlowElem.textContent = '思考フロー: ' + currentWord.thinkingFlow;
 }
 
-// 「答えを見る」ボタン押下時の処理
-function revealAnswer() {
-  document.getElementById('answer-section').style.display = 'block';
-  revealBtn.style.display = 'none';
-  nextBtn.style.display = 'inline-block';
+// 回答の表示/非表示の切替
+function toggleAnswer() {
+  const answerSection = document.getElementById('answer-section');
+  if (answerSection.style.display === 'none') {
+    answerSection.style.display = 'block';
+    toggleAnswerBtn.textContent = '回答を非表示';
+  } else {
+    answerSection.style.display = 'none';
+    toggleAnswerBtn.textContent = '回答を表示';
+  }
 }
 
-// 「次へ」ボタンで次の単語に切り替え
+// 次の単語へ
 function showNextWord() {
   currentIndex++;
   showWord();
 }
 
-// 「再スタート」ボタン押下時の処理
+// 再スタート
 function restartSession() {
   endScreen.style.display = 'none';
   startScreen.style.display = 'block';
 }
 
-// Fisher-Yatesアルゴリズムによる配列シャッフル関数
+// Fisher-Yatesアルゴリズムによる配列シャッフル
 function shuffleArray(array) {
   for (let i = array.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
