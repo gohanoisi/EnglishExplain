@@ -3,23 +3,606 @@
     "sections": {
       "1": [
         {
-          "word": "example",
-          "meaning": "例、見本",
-          "example": "This is an example sentence that uses the word example.",
-          "thinkingFlow": "文脈から例示として使われているため、exampleは例を意味する。"
+          "word": "create",
+          "meaning": "を創り出す；を引き起こす",
+          "example": "We plan to create a new product this year.",
+          "thinkingFlow": "文脈から、新しい何かを作り出すという意味で「create」を推測できる。"
         },
         {
-          "word": "apple",
-          "meaning": "りんご",
-          "example": "I ate an apple for breakfast.",
-          "thinkingFlow": "朝食に果物を食べるという文脈から、appleはりんごを指す。"
+          "word": "increase",
+          "meaning": "増加する；を増やす",
+          "example": "We need to increase our sales next month.",
+          "thinkingFlow": "売上を増やす文脈から、「increase」は数量や規模を大きくする意味だと分かる。"
+        },
+        {
+          "word": "improve",
+          "meaning": "を向上させる；よくなる",
+          "example": "I want to improve my English skills.",
+          "thinkingFlow": "スキルをより良くする文脈から、「improve」は向上や改善を意味すると判断できる。"
+        },
+        {
+          "word": "mean",
+          "meaning": "を意味する；つもりである",
+          "example": "What does this word mean in that sentence?",
+          "thinkingFlow": "文中の意味を尋ねる流れから、「mean」は“～を意味する”だと推測できる。"
+        },
+        {
+          "word": "own",
+          "meaning": "を所有している；（事実・罪など）を認める",
+          "example": "I own a small cottage near the lake.",
+          "thinkingFlow": "家を所有する文脈から、「own」は持っていることを意味する。"
+        },
+        {
+          "word": "include",
+          "meaning": "を含む",
+          "example": "Our tour plans include a visit to the old castle.",
+          "thinkingFlow": "計画に訪問が含まれる文脈から、「include」は何かを中に含むことだと分かる。"
+        },
+        {
+          "word": "consider",
+          "meaning": "を見なす；について考える",
+          "example": "Please consider all options before making a decision.",
+          "thinkingFlow": "決定前に考える文脈から、「consider」は熟慮や検討する意味になる。"
+        },
+        {
+          "word": "allow",
+          "meaning": "を許す；を与える；考慮に入れる",
+          "example": "They allow students to use the library anytime.",
+          "thinkingFlow": "学生が図書館を使用できるようにする文脈から、「allow」は許可することを指す。"
+        },
+        {
+          "word": "suggest",
+          "meaning": "を提案する；を暗示する",
+          "example": "I suggest we take a short break.",
+          "thinkingFlow": "休憩を提案する文脈から、「suggest」は提案・示唆する意味だと分かる。"
+        },
+        {
+          "word": "produce",
+          "meaning": "を生産する；を取り出す",
+          "example": "The factory will produce 100 cars a day.",
+          "thinkingFlow": "工場で車を作る文脈から、「produce」は生産する意味と分かる。"
+        },
+        {
+          "word": "decide",
+          "meaning": "を決める；に決着をつける",
+          "example": "We will decide the winner tomorrow.",
+          "thinkingFlow": "勝者を決定する流れから、「decide」は何かを最終的に選ぶ意味と判断できる。"
+        },
+        {
+          "word": "offer",
+          "meaning": "を提供する，申し出る",
+          "example": "They offer free drinks at the event.",
+          "thinkingFlow": "イベントで飲み物を提供する状況から、「offer」は“提供する”と推測できる。"
+        },
+        {
+          "word": "require",
+          "meaning": "を要求する；を必要とする",
+          "example": "This job will require a lot of patience.",
+          "thinkingFlow": "仕事で多くの忍耐を必要とする文脈から、「require」は要求・必要を意味する。"
+        },
+        {
+          "word": "share",
+          "meaning": "を共有する；を分担する",
+          "example": "We share our ideas in weekly meetings.",
+          "thinkingFlow": "ミーティングでアイデアを共有する状況から、「share」は共に分かち合う意味と分かる。"
+        },
+        {
+          "word": "store",
+          "meaning": "を保存する；を蓄える",
+          "example": "You can store data in this external drive.",
+          "thinkingFlow": "データを保管する文脈から、「store」は保存・蓄える意味を持つ。"
+        },
+        {
+          "word": "tend",
+          "meaning": "傾向がある；を世話する",
+          "example": "She does not tend to wake up early on weekends.",
+          "thinkingFlow": "朝早く起きない傾向にある文脈から、「tend」は何らかの方向性・傾向を意味すると分かる。"
+        },
+        {
+          "word": "concern",
+          "meaning": "（受身形で）心配している；（受身形で）関係する；に関連する",
+          "example": "I am concerned about his health.",
+          "thinkingFlow": "彼の健康を心配する文脈から、「concern」は不安や心配を示す。"
+        },
+        {
+          "word": "describe",
+          "meaning": "について述べる，を説明する",
+          "example": "How would you describe this painting?",
+          "thinkingFlow": "絵を言葉で説明する文脈から、「describe」は特徴や状態を述べる意味と分かる。"
+        },
+        {
+          "word": "involve",
+          "meaning": "を関与させる；を伴う",
+          "example": "This project will involve people from different departments.",
+          "thinkingFlow": "様々な部門の人々が関わる文脈から、「involve」は関与させる意味を持つ。"
+        },
+        {
+          "word": "reduce",
+          "meaning": "を減らす；を変える",
+          "example": "We aim to reduce our expenses this quarter.",
+          "thinkingFlow": "経費を減らす文脈から、「reduce」は量や規模を下げる意味だと推測できる。"
+        },
+        {
+          "word": "design",
+          "meaning": "を設計する；を計画する",
+          "example": "He will design a new website layout.",
+          "thinkingFlow": "新しいレイアウトを考案する文脈から、「design」は設計や計画を指す。"
+        },
+        {
+          "word": "force",
+          "meaning": "に強いる；を強要する",
+          "example": "Don't force him to do something he dislikes.",
+          "thinkingFlow": "嫌なことを強要する文脈から、「force」は無理やりさせる意味があると分かる。"
+        },
+        {
+          "word": "limit",
+          "meaning": "を制限［規制］する",
+          "example": "We must limit our budget for this trip.",
+          "thinkingFlow": "予算を制限する文脈から、「limit」は範囲を狭める意味として理解できる。"
+        },
+        {
+          "word": "bear",
+          "meaning": "に耐える（≒ endure）；を負う；を産む；を（心に）抱く",
+          "example": "She had to bear heavy responsibilities at work.",
+          "thinkingFlow": "大きな責任に耐える状況から、「bear」は耐える・負う意味があると推測できる。"
+        },
+        {
+          "word": "affect",
+          "meaning": "に影響を及ぼす（≒ influence）；を感動させる",
+          "example": "The new policy will affect many employees.",
+          "thinkingFlow": "多くの社員に影響を与える文脈から、「affect」は影響する意味を表す。"
+        },
+        {
+          "word": "deal",
+          "meaning": "（～ withで）を処理する；（～ inで）を商う；を分配する",
+          "example": "We must deal with this problem immediately.",
+          "thinkingFlow": "問題を処理する文脈から、「deal with」は“対処・処理する”を示唆する。"
+        },
+        {
+          "word": "avoid",
+          "meaning": "を避ける",
+          "example": "Try to avoid making the same mistake again.",
+          "thinkingFlow": "同じ失敗をしないようにする文脈から、「avoid」は避ける意味。"
+        },
+        {
+          "word": "relate",
+          "meaning": "を関連づける；関連する",
+          "example": "These facts relate to the main issue.",
+          "thinkingFlow": "主な問題と関連性を示す文脈から、「relate」は関係づける意味を持つ。"
+        },
+        {
+          "word": "realize",
+          "meaning": "に気づく；を実現する",
+          "example": "I didn't realize how important this was until today.",
+          "thinkingFlow": "重要性に気づく文脈から、「realize」は認識する意味で使われている。"
+        },
+        {
+          "word": "encourage",
+          "meaning": "を奨励する；を励ます",
+          "example": "Teachers often encourage students to ask questions.",
+          "thinkingFlow": "生徒に質問を促す流れから、「encourage」は勇気づけたり奨励する意味と判断できる。"
+        },
+        {
+          "word": "compare",
+          "meaning": "を比較する；をたとえる",
+          "example": "Let's compare our results with last year's data.",
+          "thinkingFlow": "結果を他と見比べる文脈から、「compare」は比較する意味だと分かる。"
+        },
+        {
+          "word": "measure",
+          "meaning": "を測る；を（比較して）評価する",
+          "example": "We will measure the distance between the two points.",
+          "thinkingFlow": "距離を測定する文脈から、「measure」は大きさや長さを測る意味。"
+        },
+        {
+          "word": "exist",
+          "meaning": "存在する；生存する",
+          "example": "Some believe that unicorns do not actually exist.",
+          "thinkingFlow": "実在しないと考えられている文脈から、「exist」は存在する意味だと分かる。"
+        },
+        {
+          "word": "mark",
+          "meaning": "に印をつける；を（記号で）示す；に汚れをつける",
+          "example": "Please mark the correct answer on the sheet.",
+          "thinkingFlow": "正解に印をつける文脈から、「mark」は印をつける行為を表す。"
+        },
+        {
+          "word": "challenge",
+          "meaning": "に異議を唱える；（人）に挑む",
+          "example": "He decided to challenge the champion.",
+          "thinkingFlow": "チャンピオンに挑戦する状況から、「challenge」は挑む意味として使われている。"
+        },
+        {
+          "word": "depend",
+          "meaning": "頼る；～次第である",
+          "example": "We depend on technology for daily tasks.",
+          "thinkingFlow": "日常業務でテクノロジーに頼る文脈から、「depend」は依存・依拠する意味。"
+        },
+        {
+          "word": "object",
+          "meaning": "反対する；と言って反対する",
+          "example": "I must object to this plan because it's too risky.",
+          "thinkingFlow": "リスキーな計画に反対する文脈から、「object」は意義を唱える意味がある。"
+        },
+        {
+          "word": "demand",
+          "meaning": "を要求する",
+          "example": "They demand an immediate response to their complaint.",
+          "thinkingFlow": "苦情に対してすぐの対応を要求する文脈から、「demand」は強く求める意味。"
+        },
+        {
+          "word": "found",
+          "meaning": "を設立する；（理論など）を築く",
+          "example": "He plans to found his own startup next year.",
+          "thinkingFlow": "新しい企業を設立する文脈から、「found」は組織や会社を始める意味だと分かる。"
+        },
+        {
+          "word": "complete",
+          "meaning": "を完成させる，仕上げる",
+          "example": "We need to complete this report by Friday.",
+          "thinkingFlow": "レポートを仕上げる文脈から、「complete」は終わらせる・完了する意味と判断できる。"
+        },
+        {
+          "word": "idea",
+          "meaning": "考え，思いつき；理解；見解；概念",
+          "example": "I have a great idea for our next project.",
+          "thinkingFlow": "新しいプロジェクトに対する思いつきから、「idea」は考えや発想だと分かる。"
+        },
+        {
+          "word": "accord",
+          "meaning": "一致；合意，協定",
+          "example": "They reached an accord after several discussions.",
+          "thinkingFlow": "議論の末に合意に至る文脈から、「accord」は協定や一致を示す。"
+        },
+        {
+          "word": "company",
+          "meaning": "会社；仲間；（仲間と）一緒にいること；一座",
+          "example": "He runs a small tech company in Tokyo.",
+          "thinkingFlow": "テック企業を経営する文脈から、「company」は会社だと判断できる。"
+        },
+        {
+          "word": "interest",
+          "meaning": "興味；利子；利害",
+          "example": "I have an interest in modern art.",
+          "thinkingFlow": "現代アートへの関心の文脈から、「interest」は興味や関心を指す。"
+        },
+        {
+          "word": "research",
+          "meaning": "研究，調査",
+          "example": "She is conducting research on climate change.",
+          "thinkingFlow": "気候変動について調査を行う文脈から、「research」は研究を意味する。"
+        },
+        {
+          "word": "cause",
+          "meaning": "原因；理由；大義",
+          "example": "We must find the cause of this error.",
+          "thinkingFlow": "エラーの原因を突き止める文脈から、「cause」は物事を引き起こす要因を指す。"
+        },
+        {
+          "word": "reason",
+          "meaning": "理由；根拠；理性；分別",
+          "example": "Tell me the reason for your late arrival.",
+          "thinkingFlow": "遅刻した理由を問う文脈から、「reason」は根拠やわけを示す。"
+        },
+        {
+          "word": "effect",
+          "meaning": "影響，効果；結果",
+          "example": "This policy had a positive effect on our sales.",
+          "thinkingFlow": "売上に好影響があった文脈から、「effect」は影響や結果を表す。"
+        },
+        {
+          "word": "influence",
+          "meaning": "影響（力）",
+          "example": "Her advice had a big influence on my decision.",
+          "thinkingFlow": "決定に大きな影響を与える文脈から、「influence」は影響力を示す。"
+        },
+        {
+          "word": "situation",
+          "meaning": "状況；（人の置かれた）立場",
+          "example": "We need to analyze the current situation carefully.",
+          "thinkingFlow": "現状を分析する文脈から、「situation」は置かれている状態を表すと分かる。"
+        },
+        {
+          "word": "environment",
+          "meaning": "環境（≒ surroundings）",
+          "example": "Protecting the environment is our responsibility.",
+          "thinkingFlow": "環境を保護する文脈から、「environment」は自然や周囲の状況を指す。"
+        },
+        {
+          "word": "skill",
+          "meaning": "技能；熟練",
+          "example": "Cooking is a skill that takes time to develop.",
+          "thinkingFlow": "料理が習熟を要する技術である文脈から、「skill」は技量や才能を指す。"
+        },
+        {
+          "word": "matter",
+          "meaning": "事柄；問題；事態；困難；物質",
+          "example": "This is a serious matter that must be resolved.",
+          "thinkingFlow": "解決を要する重大事という文脈から、「matter」は問題や事柄を示す。"
+        },
+        {
+          "word": "view",
+          "meaning": "見解；（特定の）見方；眺め",
+          "example": "What's your view on this topic?",
+          "thinkingFlow": "話題に対する見方を尋ねる文脈から、「view」は意見や見解を意味する。"
+        },
+        {
+          "word": "value",
+          "meaning": "価値；価格；評価；価値観",
+          "example": "Many people value honesty over wealth.",
+          "thinkingFlow": "誠実さを重視する文脈から、「value」は大切にする・価値を置く意味だと分かる。"
+        },
+        {
+          "word": "species",
+          "meaning": "（生物の）種；種類",
+          "example": "This rare species of bird is found only here.",
+          "thinkingFlow": "珍しい鳥の種類を指す文脈から、「species」は生物の種という意味を持つ。"
+        },
+        {
+          "word": "thought",
+          "meaning": "考え；思考",
+          "example": "She wrote down every thought that came to her mind.",
+          "thinkingFlow": "頭に浮かぶ考えを書く文脈から、「thought」は思考やアイデアを指す。"
+        },
+        {
+          "word": "knowledge",
+          "meaning": "知識；知っていること；認識",
+          "example": "His knowledge of history is impressive.",
+          "thinkingFlow": "歴史について詳しい文脈から、「knowledge」は知識を示す。"
+        },
+        {
+          "word": "memory",
+          "meaning": "記憶（力）；思い出",
+          "example": "I have a great memory of our trip last year.",
+          "thinkingFlow": "昨年の旅行をよく覚えている文脈から、「memory」は記憶や思い出を意味する。"
+        },
+        {
+          "word": "practice",
+          "meaning": "実践，実行；（社会の）慣習；練習",
+          "example": "Daily practice is crucial to improve your skills.",
+          "thinkingFlow": "練習が上達に重要な文脈から、「practice」は繰り返しの実践を指す。"
+        },
+        {
+          "word": "benefit",
+          "meaning": "利益，恩恵；給付金",
+          "example": "A flexible schedule is a benefit of this job.",
+          "thinkingFlow": "この仕事の恩恵としてスケジュールの柔軟性が挙げられることから、「benefit」は利点・恩恵を表す。"
+        },
+        {
+          "word": "theory",
+          "meaning": "学説；理論；原理；推測",
+          "example": "His new theory attempts to explain global warming.",
+          "thinkingFlow": "地球温暖化を説明する学説の文脈から、「theory」は仮説や理論を意味する。"
+        },
+        {
+          "word": "issue",
+          "meaning": "問題（点）；発行（物）；発表",
+          "example": "We must address the issue of air pollution.",
+          "thinkingFlow": "大気汚染という問題に取り組む文脈から、「issue」は課題や争点を指す。"
+        },
+        {
+          "word": "experiment",
+          "meaning": "実験",
+          "example": "They conducted an experiment to test the new drug.",
+          "thinkingFlow": "新薬を試験する文脈から、「experiment」は科学的な実験を意味する。"
+        },
+        {
+          "word": "article",
+          "meaning": "記事；条項；品物",
+          "example": "I read an interesting article about space travel.",
+          "thinkingFlow": "宇宙旅行に関する興味深い記事の文脈から、「article」は新聞や雑誌などの記事を指す。"
+        },
+        {
+          "word": "focus",
+          "meaning": "焦点；関心の的",
+          "example": "Let's focus on the main problem first.",
+          "thinkingFlow": "最重要課題に意識を集中する文脈から、「focus」は焦点を当てることだと分かる。"
+        },
+        {
+          "word": "subject",
+          "meaning": "話題；科目；主題；被験者",
+          "example": "History is my favorite subject in school.",
+          "thinkingFlow": "学校科目として「subject」は学問の科目を指すと理解できる。"
+        },
+        {
+          "word": "project",
+          "meaning": "計画；事業；研究計画",
+          "example": "Our next project involves renewable energy.",
+          "thinkingFlow": "次の計画が再生可能エネルギーを伴う文脈から、「project」は大きな計画や事業を表す。"
+        },
+        {
+          "word": "quality",
+          "meaning": "質；特質",
+          "example": "We should always aim for the best quality products.",
+          "thinkingFlow": "最良の製品を追求する文脈から、「quality」は品質・質を示す。"
+        },
+        {
+          "word": "role",
+          "meaning": "役割；（俳優などの）役",
+          "example": "She has a key role in the new project.",
+          "thinkingFlow": "新プロジェクトで重要な役割を担う文脈から、「role」は役目や役割を意味する。"
+        },
+        {
+          "word": "term",
+          "meaning": "（専門）用語；条件；間柄；学期",
+          "example": "That medical term is hard to understand.",
+          "thinkingFlow": "難しい医学用語の文脈から、「term」は専門的な言葉を示す。"
+        },
+        {
+          "word": "statement",
+          "meaning": "声明；主張；明細書",
+          "example": "The company released a statement about the incident.",
+          "thinkingFlow": "会社が事件についての公式文を出す文脈から、「statement」は公式発表や声明を指す。"
+        },
+        {
+          "word": "material",
+          "meaning": "材料，素材；資料；生地",
+          "example": "We need new material to build a stronger bridge.",
+          "thinkingFlow": "より強固な橋を作る材料の文脈から、「material」は物理的素材を意味する。"
+        },
+        {
+          "word": "evidence",
+          "meaning": "証拠",
+          "example": "The detective found new evidence at the crime scene.",
+          "thinkingFlow": "犯罪現場で証拠を発見する文脈から、「evidence」は何かを立証するための手掛かり。"
+        },
+        {
+          "word": "source",
+          "meaning": "源，根源；出所，情報源",
+          "example": "We must identify the source of this information.",
+          "thinkingFlow": "情報の出所を確かめる文脈から、「source」は起点や由来を指す。"
+        },
+        {
+          "word": "community",
+          "meaning": "（共同）社会，～界；地域社会；地域住民",
+          "example": "This community organizes an annual festival.",
+          "thinkingFlow": "地域で祭りを行う文脈から、「community」は共通の地域や集団を意味する。"
+        },
+        {
+          "word": "technology",
+          "meaning": "科学技術；応用技術",
+          "example": "Modern technology has changed our lives dramatically.",
+          "thinkingFlow": "生活を大きく変える科学技術の文脈から、「technology」はテクノロジーだと分かる。"
+        },
+        {
+          "word": "culture",
+          "meaning": "文化；教養；耕作；養殖；培養",
+          "example": "I'm interested in Japanese culture and traditions.",
+          "thinkingFlow": "日本の伝統や文化への興味という文脈から、「culture」は国や地域の文化を示す。"
+        },
+        {
+          "word": "appropriate",
+          "meaning": "適切な",
+          "example": "Please wear appropriate clothes for the ceremony.",
+          "thinkingFlow": "式典にふさわしい服装の文脈から、「appropriate」は適切・妥当な意味を持つ。"
+        },
+        {
+          "word": "likely",
+          "meaning": "ありそうな",
+          "example": "It is likely to rain tomorrow.",
+          "thinkingFlow": "天気予報の文脈で「雨が降りそう」と示しているので、「likely」は起こり得る意味。"
+        },
+        {
+          "word": "possible",
+          "meaning": "可能な；可能性のある",
+          "example": "It is possible to finish this task by Monday.",
+          "thinkingFlow": "月曜まで終えられるかもしれない文脈から、「possible」は実現可能だと分かる。"
+        },
+        {
+          "word": "individual",
+          "meaning": "個々の；個人の",
+          "example": "Each individual person has unique strengths.",
+          "thinkingFlow": "人それぞれが違う強みを持つ文脈から、「individual」は個々を指す意味。"
+        },
+        {
+          "word": "public",
+          "meaning": "公の；公衆の；公開の",
+          "example": "This is a public park, so everyone can enter.",
+          "thinkingFlow": "公園を誰でも利用できる文脈から、「public」は公共の意味を持つ。"
+        },
+        {
+          "word": "common",
+          "meaning": "共通の；普通の；一般の",
+          "example": "It's common to see tourists here in summer.",
+          "thinkingFlow": "夏に観光客をよく見かける文脈から、「common」は普通によくある意味。"
+        },
+        {
+          "word": "certain",
+          "meaning": "確信して；確かな；ある；一定の",
+          "example": "I'm certain we can succeed with enough effort.",
+          "thinkingFlow": "成功を確信する文脈から、「certain」は確信・確実を表す。"
+        },
+        {
+          "word": "similar",
+          "meaning": "似ている，類似した；同様の",
+          "example": "These two ideas are quite similar in concept.",
+          "thinkingFlow": "2つのアイデアが似ている文脈から、「similar」は類似を示す。"
+        },
+        {
+          "word": "recent",
+          "meaning": "最近の",
+          "example": "The recent news has shocked everyone.",
+          "thinkingFlow": "最近の出来事が皆を驚かせた文脈から、「recent」は近頃の出来事を示す。"
+        },
+        {
+          "word": "major",
+          "meaning": "主要な；大きい（ほうの）；長調の",
+          "example": "We have a major problem with our system.",
+          "thinkingFlow": "システムに主要な問題がある文脈から、「major」は大きな・重大な意味と分かる。"
+        },
+        {
+          "word": "patient",
+          "meaning": "忍耐強い；勤勉な",
+          "example": "You must be patient when learning new skills.",
+          "thinkingFlow": "新しいことを習得するには我慢が必要という文脈から、「patient」は忍耐強いを表す。"
+        },
+        {
+          "word": "particular",
+          "meaning": "特定の；特別の；やかましい",
+          "example": "He is very particular about the design details.",
+          "thinkingFlow": "デザインの細部にこだわる文脈から、「particular」は特にこだわりが強い意味。"
+        },
+        {
+          "word": "physical",
+          "meaning": "身体の；物質的な；物理学の",
+          "example": "Regular exercise contributes to good physical health.",
+          "thinkingFlow": "運動が健康に良い文脈から、「physical」は身体に関する意味を示す。"
+        },
+        {
+          "word": "various",
+          "meaning": "さまざまな；いくつかの",
+          "example": "We discussed various topics in the meeting.",
+          "thinkingFlow": "会議で多岐にわたる話題を扱う文脈から、「various」はいろいろな種類を示す。"
+        },
+        {
+          "word": "available",
+          "meaning": "手に入る；利用できる；手が空いている",
+          "example": "This book is available at the local library.",
+          "thinkingFlow": "図書館でその本が利用可能な文脈から、「available」は入手や利用が可能という意味。"
+        },
+        {
+          "word": "native",
+          "meaning": "出生地の；原産の；生得の",
+          "example": "He is a native speaker of Spanish.",
+          "thinkingFlow": "スペイン語を生まれながらに話す文脈から、「native」は母語・原産の意味を持つ。"
+        },
+        {
+          "word": "political",
+          "meaning": "政治（上）の",
+          "example": "We should avoid political arguments at family dinners.",
+          "thinkingFlow": "家庭の食事で政治的な議論を避ける文脈から、「political」は政治に関する意味。"
+        },
+        {
+          "word": "due",
+          "meaning": "予定された；（支払）期日で；しかるべき",
+          "example": "My report is due next Monday.",
+          "thinkingFlow": "提出物の期限が来週月曜という文脈から、「due」は期日が予定されている意味だと分かる。"
+        },
+        {
+          "word": "blank",
+          "meaning": "空白の；無表情な；がらんとした",
+          "example": "The page was almost blank except for the title.",
+          "thinkingFlow": "タイトル以外何も書かれていない文脈から、「blank」は空白の意味。"
+        },
+        {
+          "word": "ancient",
+          "meaning": "古代の；昔からの",
+          "example": "We visited ancient ruins during our trip.",
+          "thinkingFlow": "古代遺跡を見学する文脈から、「ancient」は大昔のものを指す。"
+        },
+        {
+          "word": "correct",
+          "meaning": "正しい；適切な",
+          "example": "Please check if this answer is correct.",
+          "thinkingFlow": "答えが正しいかどうか確認する文脈から、「correct」は正しさや適切さを表す。"
+        },
+        {
+          "word": "despite",
+          "meaning": "～にもかかわらず（≒ in spite of）",
+          "example": "We continued our journey despite the bad weather.",
+          "thinkingFlow": "悪天候でも旅を続ける文脈から、「despite」は“～にもかかわらず”を意味する。"
         }
-        // 以下、1セクションにつき100単語を格納
-      ],
-      "2": [
-        // セクション2の100単語（同様の形式）
       ]
-      // 必要に応じてセクション "3", "4", … "18" を追加
     }
   }
 }
