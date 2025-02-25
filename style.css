@@ -1,12 +1,14 @@
 /* 背景は黒、文字は白、ハイライトはエメラルドグリーン (#50C878) */
 
-/* 全体設定 */
+/* 全体設定：画面サイズに依存した文字サイズ */
 body {
   background-color: #000;
   color: #fff;
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  /* 画面サイズに応じて文字サイズを調整 */
+  font-size: calc(12px + 1vw);
 }
 
 h1 {
@@ -20,33 +22,35 @@ h1 {
 }
 
 /* 入力フォーム */
-input[type="number"] {
-  width: 100px;
+input[type="number"],
+select {
+  width: 120px;
   padding: 5px;
   margin: 5px;
+  font-size: inherit;
 }
 
 /* ボタン */
 button {
   padding: 10px 20px;
-  font-size: 16px;
+  font-size: inherit;
   cursor: pointer;
 }
 
-/* 例文の表示 */
+/* 例文の表示（単語部分は後でハイライト） */
 #example-sentence {
-  font-size: 24px;
+  font-size: 2em;
   margin-bottom: 20px;
 }
 
-/* 対象単語のハイライト */
+/* 単語・意味のハイライト（エメラルドグリーン） */
 .highlight {
-  color: #50C878; /* エメラルドグリーン */
+  color: #50C878;
   font-weight: bold;
 }
 
 /* 答え部分のテキスト */
 #answer-section p {
   margin: 10px 0;
-  font-size: 18px;
+  font-size: 1.5em;
 }
