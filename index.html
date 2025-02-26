@@ -7,33 +7,12 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- スタート画面 -->
+  <!-- スタート画面：モード選択と出題範囲の設定 -->
   <div id="start-screen">
     <h1>英単語学習アプリ</h1>
     <p>モード選択:</p>
     <label><input type="radio" name="mode" value="sequential" checked> 順番</label>
     <label><input type="radio" name="mode" value="random"> ランダム</label>
-    <p>セクション選択 (1～18):</p>
-    <select id="section-select">
-      <option value="1">1</option>
-      <option value="2">2</option>
-      <option value="3">3</option>
-      <option value="4">4</option>
-      <option value="5">5</option>
-      <option value="6">6</option>
-      <option value="7">7</option>
-      <option value="8">8</option>
-      <option value="9">9</option>
-      <option value="10">10</option>
-      <option value="11">11</option>
-      <option value="12">12</option>
-      <option value="13">13</option>
-      <option value="14">14</option>
-      <option value="15">15</option>
-      <option value="16">16</option>
-      <option value="17">17</option>
-      <option value="18">18</option>
-    </select>
     <p>出題範囲 (例: 1〜100):</p>
     <input type="number" id="range-start" placeholder="開始番号" min="1" value="1">
     <input type="number" id="range-end" placeholder="終了番号" min="1" value="100">
@@ -41,23 +20,31 @@
     <button id="start-btn">開始</button>
   </div>
   
-  <!-- 単語表示画面 -->
+  <!-- 単語表示画面：例文と答え表示 -->
   <div id="word-screen" style="display:none;">
     <div id="word-container">
       <p id="example-sentence"></p>
-      <!-- 回答表示/非表示のトグルボタン -->
-      <button id="toggle-answer-btn">回答を表示</button>
+      <div id="button-group">
+        <!-- 初期は「ヒントを見る」と「わかった」ボタンのみ表示 -->
+        <button id="hint-btn">ヒントを見る</button>
+        <button id="gotit-btn">わかった</button>
+        <!-- ヒント後に表示：対象単語の意味を知りたい場合 -->
+        <button id="dontknow-btn" style="display:none;">わからない</button>
+      </div>
       <div id="answer-section" style="display:none;">
-        <!-- 意味もエメラルドグリーンでハイライト -->
+        <p id="hint"></p>
         <p id="meaning"></p>
         <p id="thinkingFlow"></p>
       </div>
     </div>
-    <!-- 「次へ」ボタンは常に表示 -->
-    <button id="next-btn">次へ</button>
+    <div id="after-answer-buttons" style="display:none;">
+      <!-- 回答後の最終選択：実際のTF情報更新 -->
+      <button id="wrong-btn">わからなかった</button>
+      <button id="next-btn">次へ進む</button>
+    </div>
   </div>
   
-  <!-- 終了画面 -->
+  <!-- 終了画面：全単語終了後 -->
   <div id="end-screen" style="display:none;">
     <h1>お疲れ様でした！</h1>
     <button id="restart-btn">再スタート</button>
