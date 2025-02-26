@@ -3,604 +3,704 @@
     "sections": {
       "1": [
         {
+          "id": 1,
           "word": "create",
           "meaning": "を創り出す；を引き起こす",
-          "example": "We plan to create a new product this year.",
-          "thinkingFlow": "文脈から、新しい何かを作り出すという意味で「create」を推測できる。"
+          "example": "Create new ideas every day. You can create solutions for any challenge.",
+          "wordMeanings": "Create 創り出す new 新しい ideas アイデア every 毎日 day 日 You あなた can できる create 創り出す solutions 解決策 for のため any どんな challenge 挑戦"
         },
         {
+          "id": 2,
           "word": "increase",
           "meaning": "増加する；を増やす",
-          "example": "We need to increase our sales next month.",
-          "thinkingFlow": "売上を増やす文脈から、「increase」は数量や規模を大きくする意味だと分かる。"
+          "example": "Sales often increase during the holiday season. We plan to increase our product lineup soon.",
+          "wordMeanings": "Sales 売上 often しばしば increase 増える during 間 holiday 休日 season 季節 We 私たちは plan 計画する to 〜すること increase 増やす our 私たちの product 製品 lineup 品揃え soon 近いうちに"
         },
         {
+          "id": 3,
           "word": "improve",
           "meaning": "を向上させる；よくなる",
-          "example": "I want to improve my English skills.",
-          "thinkingFlow": "スキルをより良くする文脈から、「improve」は向上や改善を意味すると判断できる。"
+          "example": "You can improve your skills by practicing daily. Good habits also improve your confidence.",
+          "wordMeanings": "You あなた can できる improve 向上させる your あなたの skills 技術 by によって practicing 練習する daily 毎日 Good 良い habits 習慣 also も improve 向上させる your あなたの confidence 自信"
         },
         {
+          "id": 4,
           "word": "mean",
           "meaning": "を意味する；つもりである",
-          "example": "What does this word mean in that sentence?",
-          "thinkingFlow": "文中の意味を尋ねる流れから、「mean」は“～を意味する”だと推測できる。"
+          "example": "What does this word mean in English? I mean to study it more carefully.",
+          "wordMeanings": "What 何 does 〜ですか this この word 単語 mean 意味する in で English 英語 I 私 mean つもりである to 〜すること study 学習する it それ more より carefully 注意深く"
         },
         {
+          "id": 5,
           "word": "own",
           "meaning": "を所有している；（事実・罪など）を認める",
-          "example": "I own a small cottage near the lake.",
-          "thinkingFlow": "家を所有する文脈から、「own」は持っていることを意味する。"
+          "example": "I own two bicycles for different terrains. I must own my mistakes as well.",
+          "wordMeanings": "I 私 own 所有している two 2 bicycles 自転車 for のため different 異なる terrains 地形 must 〜しなければならない own 認める my 私の mistakes 間違い as 同様に well うまく"
         },
         {
+          "id": 6,
           "word": "include",
           "meaning": "を含む",
-          "example": "Our tour plans include a visit to the old castle.",
-          "thinkingFlow": "計画に訪問が含まれる文脈から、「include」は何かを中に含むことだと分かる。"
+          "example": "We should include everyone in this activity. Our plan will also include outdoor events.",
+          "wordMeanings": "We 私たちは should すべき include 含む everyone みんな in で this この activity 活動 Our 私たちの plan 計画 will 〜するだろう also も include 含む outdoor 屋外の events 行事"
         },
         {
+          "id": 7,
           "word": "consider",
           "meaning": "を見なす；について考える",
-          "example": "Please consider all options before making a decision.",
-          "thinkingFlow": "決定前に考える文脈から、「consider」は熟慮や検討する意味になる。"
+          "example": "Please consider my proposal carefully. Many people consider it a good opportunity.",
+          "wordMeanings": "Please お願いします consider 考える my 私の proposal 提案 carefully 注意深く Many 多くの people 人々 consider 見なす it それ a 一つの good 良い opportunity 機会"
         },
         {
+          "id": 8,
           "word": "allow",
           "meaning": "を許す；を与える；考慮に入れる",
-          "example": "They allow students to use the library anytime.",
-          "thinkingFlow": "学生が図書館を使用できるようにする文脈から、「allow」は許可することを指す。"
+          "example": "Our school will allow more student activities. We must allow time for breaks too.",
+          "wordMeanings": "Our 私たちの school 学校 will 〜するだろう allow 許す more より多くの student 学生 activities 活動 We 私たちは must 〜しなければならない allow 与える time 時間 for のため breaks 休憩 too も"
         },
         {
+          "id": 9,
           "word": "suggest",
           "meaning": "を提案する；を暗示する",
-          "example": "I suggest we take a short break.",
-          "thinkingFlow": "休憩を提案する文脈から、「suggest」は提案・示唆する意味だと分かる。"
+          "example": "I suggest taking a short walk every morning. Experts also suggest a balanced diet.",
+          "wordMeanings": "I 私 suggest 提案する taking 取る a 一つの short 短い walk 散歩 every 毎 morning 朝 Experts 専門家 also も suggest 提案する a 一つの balanced バランスのとれた diet 食事"
         },
         {
+          "id": 10,
           "word": "produce",
           "meaning": "を生産する；を取り出す",
-          "example": "The factory will produce 100 cars a day.",
-          "thinkingFlow": "工場で車を作る文脈から、「produce」は生産する意味と分かる。"
+          "example": "Farmers produce fresh vegetables each season. They also produce dairy products.",
+          "wordMeanings": "Farmers 農家 produce 生産する fresh 新鮮な vegetables 野菜 each それぞれの season 季節 They 彼ら also も produce 生産する dairy 乳製品 products 製品"
         },
         {
+          "id": 11,
           "word": "decide",
           "meaning": "を決める；に決着をつける",
-          "example": "We will decide the winner tomorrow.",
-          "thinkingFlow": "勝者を決定する流れから、「decide」は何かを最終的に選ぶ意味と判断できる。"
+          "example": "We must decide where to travel this year. Let’s decide by next week.",
+          "wordMeanings": "We 私たちは must 〜しなければならない decide 決める where どこ to 〜すること travel 旅行する this この year 年 Let’s 〜しましょう decide 決定する by までに next 次の week 週"
         },
         {
+          "id": 12,
           "word": "offer",
           "meaning": "を提供する，申し出る",
-          "example": "They offer free drinks at the event.",
-          "thinkingFlow": "イベントで飲み物を提供する状況から、「offer」は“提供する”と推測できる。"
+          "example": "They offer free samples at the store. I will offer my help if needed.",
+          "wordMeanings": "They 彼ら offer 提供する free 無料の samples サンプル at で store 店 I 私 will 〜するだろう offer 申し出る my 私の help 助け if もし needed 必要な"
         },
         {
+          "id": 13,
           "word": "require",
           "meaning": "を要求する；を必要とする",
-          "example": "This job will require a lot of patience.",
-          "thinkingFlow": "仕事で多くの忍耐を必要とする文脈から、「require」は要求・必要を意味する。"
+          "example": "These tasks require great focus. Some projects also require extra funding.",
+          "wordMeanings": "These これらの tasks 作業 require 要求する great 素晴らしい focus 集中 Some いくつかの projects 計画 also も require 要求する extra 追加の funding 資金"
         },
         {
+          "id": 14,
           "word": "share",
           "meaning": "を共有する；を分担する",
-          "example": "We share our ideas in weekly meetings.",
-          "thinkingFlow": "ミーティングでアイデアを共有する状況から、「share」は共に分かち合う意味と分かる。"
+          "example": "We share our stories to inspire others. Always share your knowledge generously.",
+          "wordMeanings": "We 私たちは share 共有する our 私たちの stories 物語 to 〜すること inspire 触発する others 他人 Always 常に share 共有する your あなたの knowledge 知識 generously 寛大に"
         },
         {
+          "id": 15,
           "word": "store",
           "meaning": "を保存する；を蓄える",
-          "example": "You can store data in this external drive.",
-          "thinkingFlow": "データを保管する文脈から、「store」は保存・蓄える意味を持つ。"
+          "example": "Store important documents in a safe place. We also store backup data regularly.",
+          "wordMeanings": "Store 保存する important 重要な documents 書類 in で safe 安全な place 場所 We 私たちは also も store 保存する backup バックアップ data データ regularly 定期的に"
         },
         {
+          "id": 16,
           "word": "tend",
           "meaning": "傾向がある；を世話する",
-          "example": "She does not tend to wake up early on weekends.",
-          "thinkingFlow": "朝早く起きない傾向にある文脈から、「tend」は何らかの方向性・傾向を意味すると分かる。"
+          "example": "I tend to wake up early. My grandparents tend their garden carefully.",
+          "wordMeanings": "I 私 tend 傾向がある to 〜すること wake 起きる up 上に early 早く My 私の grandparents 祖父母 tend 世話する their 彼らの garden 庭 carefully 注意深く"
         },
         {
+          "id": 17,
           "word": "concern",
           "meaning": "（受身形で）心配している；（受身形で）関係する；に関連する",
-          "example": "I am concerned about his health.",
-          "thinkingFlow": "彼の健康を心配する文脈から、「concern」は不安や心配を示す。"
+          "example": "I am concerned about the test results. This issue may concern everyone in the team.",
+          "wordMeanings": "I 私 am である concerned 心配している about について test テスト results 結果 This この issue 問題 may かもしれない concern 関係する everyone みんな in で team チーム"
         },
         {
+          "id": 18,
           "word": "describe",
           "meaning": "について述べる，を説明する",
-          "example": "How would you describe this painting?",
-          "thinkingFlow": "絵を言葉で説明する文脈から、「describe」は特徴や状態を述べる意味と分かる。"
+          "example": "Can you describe your hometown in detail? Please describe its main features too.",
+          "wordMeanings": "Can できますか you あなた describe 説明する your あなたの hometown 故郷 in で detail 詳しく Please お願いします describe 説明する its それの main 主要な features 特徴 too も"
         },
         {
+          "id": 19,
           "word": "involve",
           "meaning": "を関与させる；を伴う",
-          "example": "This project will involve people from different departments.",
-          "thinkingFlow": "様々な部門の人々が関わる文脈から、「involve」は関与させる意味を持つ。"
+          "example": "Group projects often involve teamwork. They also involve good communication skills.",
+          "wordMeanings": "Group グループ projects 計画 often しばしば involve 関与させる teamwork チームワーク They 彼ら also も involve 伴う good 良い communication コミュニケーション skills 技能"
         },
         {
+          "id": 20,
           "word": "reduce",
           "meaning": "を減らす；を変える",
-          "example": "We aim to reduce our expenses this quarter.",
-          "thinkingFlow": "経費を減らす文脈から、「reduce」は量や規模を下げる意味だと推測できる。"
+          "example": "We aim to reduce waste at our factory. This step can reduce environmental impact.",
+          "wordMeanings": "We 私たちは aim 目指す to 〜すること reduce 減らす waste ゴミ at で our 私たちの factory 工場 This この step 手順 can できる reduce 減らす environmental 環境の impact 影響"
         },
         {
+          "id": 21,
           "word": "design",
           "meaning": "を設計する；を計画する",
-          "example": "He will design a new website layout.",
-          "thinkingFlow": "新しいレイアウトを考案する文脈から、「design」は設計や計画を指す。"
+          "example": "They will design a new building soon. We can also design a modern interior.",
+          "wordMeanings": "They 彼ら will 〜するだろう design 設計する a 一つの new 新しい building 建物 soon 近いうちに We 私たちは can できる also も design 設計する a 一つの modern 現代的な interior 内装"
         },
         {
+          "id": 22,
           "word": "force",
           "meaning": "に強いる；を強要する",
-          "example": "Don't force him to do something he dislikes.",
-          "thinkingFlow": "嫌なことを強要する文脈から、「force」は無理やりさせる意味があると分かる。"
+          "example": "Do not force people to agree with you. Circumstances sometimes force a quick decision.",
+          "wordMeanings": "Do しないで not ない force 強いる people 人々 to 〜すること agree 同意する with と you あなた Circumstances 状況 sometimes ときどき force 強要する a 一つの quick 迅速な decision 決断"
         },
         {
+          "id": 23,
           "word": "limit",
           "meaning": "を制限［規制］する",
-          "example": "We must limit our budget for this trip.",
-          "thinkingFlow": "予算を制限する文脈から、「limit」は範囲を狭める意味として理解できる。"
+          "example": "We must limit our expenses this month. Parents often limit screen time for kids.",
+          "wordMeanings": "We 私たちは must 〜しなければならない limit 制限する our 私たちの expenses 出費 this この month 月 Parents 親 often しばしば limit 制限する screen 画面 time 時間 for のため kids 子供"
         },
         {
+          "id": 24,
           "word": "bear",
           "meaning": "に耐える（≒ endure）；を負う；を産む；を（心に）抱く",
-          "example": "She had to bear heavy responsibilities at work.",
-          "thinkingFlow": "大きな責任に耐える状況から、「bear」は耐える・負う意味があると推測できる。"
+          "example": "I cannot bear this heavy bag for long. Sometimes we must bear difficult situations.",
+          "wordMeanings": "I 私 cannot できない bear 耐える this この heavy 重い bag かばん for の間 long 長い Sometimes ときどき we 私たちは must 〜しなければならない bear 耐える difficult 難しい situations 状況"
         },
         {
+          "id": 25,
           "word": "affect",
           "meaning": "に影響を及ぼす（≒ influence）；を感動させる",
-          "example": "The new policy will affect many employees.",
-          "thinkingFlow": "多くの社員に影響を与える文脈から、「affect」は影響する意味を表す。"
+          "example": "Weather can affect our travel plans. Good news may affect my mood positively.",
+          "wordMeanings": "Weather 天気 can できる affect 影響を及ぼす our 私たちの travel 旅行 plans 計画 Good 良い news ニュース may かもしれない affect 感動させる my 私の mood 気分 positively 肯定的に"
         },
         {
+          "id": 26,
           "word": "deal",
           "meaning": "（～ withで）を処理する；（～ inで）を商う；を分配する",
-          "example": "We must deal with this problem immediately.",
-          "thinkingFlow": "問題を処理する文脈から、「deal with」は“対処・処理する”を示唆する。"
+          "example": "He must deal with complicated paperwork. This store deals in rare books as well.",
+          "wordMeanings": "He 彼 must 〜しなければならない deal 処理する with とともに complicated 複雑な paperwork 書類 This この store 店 deals 商う in で rare 珍しい books 本 as 同様に well うまく"
         },
         {
+          "id": 27,
           "word": "avoid",
           "meaning": "を避ける",
-          "example": "Try to avoid making the same mistake again.",
-          "thinkingFlow": "同じ失敗をしないようにする文脈から、「avoid」は避ける意味。"
+          "example": "Try to avoid unhealthy foods. We also avoid smoking in public places.",
+          "wordMeanings": "Try 試す to 〜すること avoid 避ける unhealthy 不健康な foods 食べ物 We 私たちは also も avoid 避ける smoking 喫煙 in で public 公共 places 場所"
         },
         {
+          "id": 28,
           "word": "relate",
           "meaning": "を関連づける；関連する",
-          "example": "These facts relate to the main issue.",
-          "thinkingFlow": "主な問題と関連性を示す文脈から、「relate」は関係づける意味を持つ。"
+          "example": "We can relate our past experiences to this topic. Many facts also relate to each other.",
+          "wordMeanings": "We 私たちは can できる relate 関連づける our 私たちの past 過去の experiences 経験 to に this この topic テーマ Many たくさんの facts 事実 also も relate 関連する to に each それぞれ other 他"
         },
         {
+          "id": 29,
           "word": "realize",
           "meaning": "に気づく；を実現する",
-          "example": "I didn't realize how important this was until today.",
-          "thinkingFlow": "重要性に気づく文脈から、「realize」は認識する意味で使われている。"
+          "example": "I realize the importance of daily exercise. We should realize our goals step by step.",
+          "wordMeanings": "I 私 realize 気づく the その importance 重要性 of の daily 毎日の exercise 運動 We 私たちは should すべき realize 実現する our 私たちの goals 目標 step 段階 by によって step 段階"
         },
         {
+          "id": 30,
           "word": "encourage",
           "meaning": "を奨励する；を励ます",
-          "example": "Teachers often encourage students to ask questions.",
-          "thinkingFlow": "生徒に質問を促す流れから、「encourage」は勇気づけたり奨励する意味と判断できる。"
+          "example": "Teachers encourage active participation in class. Friends can encourage you to try new things.",
+          "wordMeanings": "Teachers 先生 encourage 奨励する active 積極的な participation 参加 in で class 授業 Friends 友人 can できる encourage 励ます you あなた to 〜すること try 試す new 新しい things こと"
         },
         {
+          "id": 31,
           "word": "compare",
           "meaning": "を比較する；をたとえる",
-          "example": "Let's compare our results with last year's data.",
-          "thinkingFlow": "結果を他と見比べる文脈から、「compare」は比較する意味だと分かる。"
+          "example": "We can compare different solutions. Many people compare prices before shopping.",
+          "wordMeanings": "We 私たちは can できる compare 比較する different 異なる solutions 解決策 Many 多くの people 人々 compare 比較する prices 価格 before 前に shopping 買い物"
         },
         {
+          "id": 32,
           "word": "measure",
           "meaning": "を測る；を（比較して）評価する",
-          "example": "We will measure the distance between the two points.",
-          "thinkingFlow": "距離を測定する文脈から、「measure」は大きさや長さを測る意味。"
+          "example": "Use a ruler to measure the length. We also measure success in various ways.",
+          "wordMeanings": "Use 使う ruler ものさし to 〜すること measure 測る length 長さ We 私たちは also も measure 評価する success 成功 in で various さまざまな ways 方法"
         },
         {
+          "id": 33,
           "word": "exist",
           "meaning": "存在する；生存する",
-          "example": "Some believe that unicorns do not actually exist.",
-          "thinkingFlow": "実在しないと考えられている文脈から、「exist」は存在する意味だと分かる。"
+          "example": "Unicorns do not actually exist. However, many legends exist around mythical creatures.",
+          "wordMeanings": "Unicorns ユニコーン do しない not ない actually 実際に exist 存在する However しかし many 多くの legends 伝説 exist 存在する around 周囲 mythical 神話の creatures 生き物"
         },
         {
+          "id": 34,
           "word": "mark",
           "meaning": "に印をつける；を（記号で）示す；に汚れをつける",
-          "example": "Please mark the correct answer on the sheet.",
-          "thinkingFlow": "正解に印をつける文脈から、「mark」は印をつける行為を表す。"
+          "example": "Please mark your answers clearly on the sheet. Students must mark important points in notebooks.",
+          "wordMeanings": "Please お願いします mark 印をつける your あなたの answers 解答 clearly はっきり on で sheet 用紙 Students 学生 must 〜しなければならない mark 印をつける important 重要な points 点 in で notebooks ノート"
         },
         {
+          "id": 35,
           "word": "challenge",
           "meaning": "に異議を唱える；（人）に挑む",
-          "example": "He decided to challenge the champion.",
-          "thinkingFlow": "チャンピオンに挑戦する状況から、「challenge」は挑む意味として使われている。"
+          "example": "We should challenge unfair rules. Athletes often challenge each other in competitions.",
+          "wordMeanings": "We 私たちは should すべき challenge 異議を唱える unfair 不公平な rules 規則 Athletes アスリート often しばしば challenge 挑む each それぞれ other 他 in で competitions 競技"
         },
         {
+          "id": 36,
           "word": "depend",
           "meaning": "頼る；～次第である",
-          "example": "We depend on technology for daily tasks.",
-          "thinkingFlow": "日常業務でテクノロジーに頼る文脈から、「depend」は依存・依拠する意味。"
+          "example": "We depend on technology to communicate. Success can depend on hard work too.",
+          "wordMeanings": "We 私たちは depend 頼る on で technology 技術 to 〜すること communicate やりとりする Success 成功 can できる depend 次第である on に hard きつい work 仕事 too も"
         },
         {
+          "id": 37,
           "word": "object",
           "meaning": "反対する；と言って反対する",
-          "example": "I must object to this plan because it's too risky.",
-          "thinkingFlow": "リスキーな計画に反対する文脈から、「object」は意義を唱える意味がある。"
+          "example": "Some members object to the new plan. They object because it seems expensive.",
+          "wordMeanings": "Some いくつかの members メンバー object 反対する to に new 新しい plan 計画 They 彼ら object 反対する because なぜなら it それ seems 思われる expensive 高価な"
         },
         {
+          "id": 38,
           "word": "demand",
           "meaning": "を要求する",
-          "example": "They demand an immediate response to their complaint.",
-          "thinkingFlow": "苦情に対してすぐの対応を要求する文脈から、「demand」は強く求める意味。"
+          "example": "Citizens demand better public services. We will demand transparency from officials.",
+          "wordMeanings": "Citizens 市民 demand 要求する better より良い public 公共の services サービス We 私たちは will 〜するだろう demand 要求する transparency 透明性 from から officials 公的担当者"
         },
         {
+          "id": 39,
           "word": "found",
           "meaning": "を設立する；（理論など）を築く",
-          "example": "He plans to found his own startup next year.",
-          "thinkingFlow": "新しい企業を設立する文脈から、「found」は組織や会社を始める意味だと分かる。"
+          "example": "They plan to found a nonprofit group. We hope they found it on strong principles.",
+          "wordMeanings": "They 彼ら plan 計画する to 〜すること found 設立する a 一つの nonprofit 非営利の group 団体 We 私たちは hope 望む they 彼ら found 築く it それ on に strong 強い principles 原則"
         },
         {
+          "id": 40,
           "word": "complete",
           "meaning": "を完成させる，仕上げる",
-          "example": "We need to complete this report by Friday.",
-          "thinkingFlow": "レポートを仕上げる文脈から、「complete」は終わらせる・完了する意味と判断できる。"
+          "example": "Please complete the form by tomorrow. We will complete the final report soon.",
+          "wordMeanings": "Please お願いします complete 完成させる form 用紙 by までに tomorrow 明日 We 私たちは will 〜するだろう complete 完成させる final 最終的な report 報告 soon 近いうちに"
         },
         {
+          "id": 41,
           "word": "idea",
           "meaning": "考え，思いつき；理解；見解；概念",
-          "example": "I have a great idea for our next project.",
-          "thinkingFlow": "新しいプロジェクトに対する思いつきから、「idea」は考えや発想だと分かる。"
+          "example": "She had a great idea for the party. This idea might entertain everyone.",
+          "wordMeanings": "She 彼女 had 持った a 一つの great 素晴らしい idea 考え for のため party パーティー This この idea 考え might かもしれない entertain 楽しませる everyone みんな"
         },
         {
+          "id": 42,
           "word": "accord",
           "meaning": "一致；合意，協定",
-          "example": "They reached an accord after several discussions.",
-          "thinkingFlow": "議論の末に合意に至る文脈から、「accord」は協定や一致を示す。"
+          "example": "They reached an accord after long talks. This accord benefits both sides equally.",
+          "wordMeanings": "They 彼ら reached 到達した an 一つの accord 合意 after の後に long 長い talks 話し合い This この accord 協定 benefits 利益を与える both 両方 sides 側 equally 同等に"
         },
         {
+          "id": 43,
           "word": "company",
           "meaning": "会社；仲間；（仲間と）一緒にいること；一座",
-          "example": "He runs a small tech company in Tokyo.",
-          "thinkingFlow": "テック企業を経営する文脈から、「company」は会社だと判断できる。"
+          "example": "She works at a famous company in Tokyo. Good company can make tasks more pleasant.",
+          "wordMeanings": "She 彼女 works 働く at で a 一つの famous 有名な company 会社 in で Tokyo 東京 Good 良い company 仲間 can できる make 作る tasks 作業 more より pleasant 楽しい"
         },
         {
+          "id": 44,
           "word": "interest",
           "meaning": "興味；利子；利害",
-          "example": "I have an interest in modern art.",
-          "thinkingFlow": "現代アートへの関心の文脈から、「interest」は興味や関心を指す。"
+          "example": "My interest in history grows daily. Banks also pay interest on savings.",
+          "wordMeanings": "My 私の interest 興味 in で history 歴史 grows 成長する daily 毎日 Banks 銀行 also も pay 支払う interest 利子 on に savings 貯蓄"
         },
         {
+          "id": 45,
           "word": "research",
           "meaning": "研究，調査",
-          "example": "She is conducting research on climate change.",
-          "thinkingFlow": "気候変動について調査を行う文脈から、「research」は研究を意味する。"
+          "example": "He does research on environmental issues. New research often reveals unexpected facts.",
+          "wordMeanings": "He 彼 does 行う research 研究 on で environmental 環境の issues 問題 New 新しい research 研究 often しばしば reveals 明らかにする unexpected 予期しない facts 事実"
         },
         {
+          "id": 46,
           "word": "cause",
           "meaning": "原因；理由；大義",
-          "example": "We must find the cause of this error.",
-          "thinkingFlow": "エラーの原因を突き止める文脈から、「cause」は物事を引き起こす要因を指す。"
+          "example": "Smoking is a major cause of health problems. We must support a good cause for society.",
+          "wordMeanings": "Smoking 喫煙 is である a 一つの major 主要な cause 原因 of の health 健康 problems 問題 We 私たちは must 〜しなければならない support 支援する a 一つの good 良い cause 大義 for のため society 社会"
         },
         {
+          "id": 47,
           "word": "reason",
           "meaning": "理由；根拠；理性；分別",
-          "example": "Tell me the reason for your late arrival.",
-          "thinkingFlow": "遅刻した理由を問う文脈から、「reason」は根拠やわけを示す。"
+          "example": "Give me one reason for your choice. We need reason to solve conflicts calmly.",
+          "wordMeanings": "Give 与える me 私に one 一つの reason 理由 for のため your あなたの choice 選択 We 私たちは need 必要とする reason 理性 to 〜すること solve 解決する conflicts 衝突 calmly 落ち着いて"
         },
         {
+          "id": 48,
           "word": "effect",
           "meaning": "影響，効果；結果",
-          "example": "This policy had a positive effect on our sales.",
-          "thinkingFlow": "売上に好影響があった文脈から、「effect」は影響や結果を表す。"
+          "example": "Exercise has a positive effect on mood. The long-term effect is also significant.",
+          "wordMeanings": "Exercise 運動 has 持っている a 一つの positive 肯定的な effect 影響 on に mood 気分 The その long-term 長期的 effect 効果 is である also も significant 重要な"
         },
         {
+          "id": 49,
           "word": "influence",
           "meaning": "影響（力）",
-          "example": "Her advice had a big influence on my decision.",
-          "thinkingFlow": "決定に大きな影響を与える文脈から、「influence」は影響力を示す。"
+          "example": "Parents have a strong influence on children. Media influence can also shape opinions.",
+          "wordMeanings": "Parents 親 have 持っている a 一つの strong 強い influence 影響 on に children 子供 Media メディア influence 影響 can できる also も shape 形作る opinions 意見"
         },
         {
+          "id": 50,
           "word": "situation",
           "meaning": "状況；（人の置かれた）立場",
-          "example": "We need to analyze the current situation carefully.",
-          "thinkingFlow": "現状を分析する文脈から、「situation」は置かれている状態を表すと分かる。"
+          "example": "This situation requires urgent action. We must handle the situation carefully.",
+          "wordMeanings": "This この situation 状況 requires 要求する urgent 緊急の action 行動 We 私たちは must 〜しなければならない handle 対応する the その situation 状況 carefully 注意深く"
         },
         {
+          "id": 51,
           "word": "environment",
           "meaning": "環境（≒ surroundings）",
-          "example": "Protecting the environment is our responsibility.",
-          "thinkingFlow": "環境を保護する文脈から、「environment」は自然や周囲の状況を指す。"
+          "example": "We should protect the environment for future generations. A clean environment supports all life.",
+          "wordMeanings": "We 私たちは should すべき protect 保護する the その environment 環境 for のため future 未来の generations 世代 A 一つの clean 清潔な environment 環境 supports 支える all 全ての life 生命"
         },
         {
+          "id": 52,
           "word": "skill",
           "meaning": "技能；熟練",
-          "example": "Cooking is a skill that takes time to develop.",
-          "thinkingFlow": "料理が習熟を要する技術である文脈から、「skill」は技量や才能を指す。"
+          "example": "Painting is a skill you can develop. Good teaching enhances any skill.",
+          "wordMeanings": "Painting 絵を描くこと is である a 一つの skill 技能 you あなた can できる develop 身につける Good 良い teaching 教えること enhances 高める any どんな skill 技能"
         },
         {
+          "id": 53,
           "word": "matter",
           "meaning": "事柄；問題；事態；困難；物質",
-          "example": "This is a serious matter that must be resolved.",
-          "thinkingFlow": "解決を要する重大事という文脈から、「matter」は問題や事柄を示す。"
+          "example": "This is a serious matter we must solve. Family matters often require patience.",
+          "wordMeanings": "This これは is である a 一つの serious 深刻な matter 事柄 we 私たちは must 〜しなければならない solve 解決する Family 家族 matters 事柄 often しばしば require 要求する patience 忍耐"
         },
         {
+          "id": 54,
           "word": "view",
           "meaning": "見解；（特定の）見方；眺め",
-          "example": "What's your view on this topic?",
-          "thinkingFlow": "話題に対する見方を尋ねる文脈から、「view」は意見や見解を意味する。"
+          "example": "Her view on education is interesting. We should respect every view in a discussion.",
+          "wordMeanings": "Her 彼女の view 見解 on について education 教育 is である interesting 面白い We 私たちは should すべき respect 尊重する every あらゆる view 見方 in で a 一つの discussion 議論"
         },
         {
+          "id": 55,
           "word": "value",
           "meaning": "価値；価格；評価；価値観",
-          "example": "Many people value honesty over wealth.",
-          "thinkingFlow": "誠実さを重視する文脈から、「value」は大切にする・価値を置く意味だと分かる。"
+          "example": "Honesty has great value in any society. We should value each individual's opinion.",
+          "wordMeanings": "Honesty 正直さ has 持っている great 大きな value 価値 in で any どんな society 社会 We 私たちは should すべき value 評価する each それぞれの individual's 個人の opinion 意見"
         },
         {
+          "id": 56,
           "word": "species",
           "meaning": "（生物の）種；種類",
-          "example": "This rare species of bird is found only here.",
-          "thinkingFlow": "珍しい鳥の種類を指す文脈から、「species」は生物の種という意味を持つ。"
+          "example": "Many bird species migrate each year. We must protect endangered species globally.",
+          "wordMeanings": "Many 多くの bird 鳥 species 種 migrate 移動する each それぞれの year 年 We 私たちは must 〜しなければならない protect 保護する endangered 絶滅危惧の species 種 globally 世界的に"
         },
         {
+          "id": 57,
           "word": "thought",
           "meaning": "考え；思考",
-          "example": "She wrote down every thought that came to her mind.",
-          "thinkingFlow": "頭に浮かぶ考えを書く文脈から、「thought」は思考やアイデアを指す。"
+          "example": "I had a random thought about our project. That thought led to a new idea.",
+          "wordMeanings": "I 私 had 持った a 一つの random とりとめのない thought 考え about について our 私たちの project 計画 That あれ thought 考え led 導いた to に a 一つの new 新しい idea アイデア"
         },
         {
+          "id": 58,
           "word": "knowledge",
           "meaning": "知識；知っていること；認識",
-          "example": "His knowledge of history is impressive.",
-          "thinkingFlow": "歴史について詳しい文脈から、「knowledge」は知識を示す。"
+          "example": "Reading expands our knowledge of the world. Knowledge can guide us to make better choices.",
+          "wordMeanings": "Reading 読むこと expands 広げる our 私たちの knowledge 知識 of の the その world 世界 Knowledge 知識 can できる guide 導く us 私たち to 〜すること make 作る better より良い choices 選択"
         },
         {
+          "id": 59,
           "word": "memory",
           "meaning": "記憶（力）；思い出",
-          "example": "I have a great memory of our trip last year.",
-          "thinkingFlow": "昨年の旅行をよく覚えている文脈から、「memory」は記憶や思い出を意味する。"
+          "example": "That trip is a precious memory for me. Memory fades if we don't review experiences.",
+          "wordMeanings": "That あの trip 旅行 is である a 一つの precious 貴重な memory 思い出 for にとって me 私 Memory 記憶 fades 薄れる if もし we 私たち don't しない review 見直す experiences 経験"
         },
         {
+          "id": 60,
           "word": "practice",
           "meaning": "実践，実行；（社会の）慣習；練習",
-          "example": "Daily practice is crucial to improve your skills.",
-          "thinkingFlow": "練習が上達に重要な文脈から、「practice」は繰り返しの実践を指す。"
+          "example": "Daily practice improves our performance. Cultural practice varies across regions.",
+          "wordMeanings": "Daily 毎日の practice 練習 improves 改善する our 私たちの performance 実力 Cultural 文化的な practice 慣習 varies 異なる across を通して regions 地域"
         },
         {
+          "id": 61,
           "word": "benefit",
           "meaning": "利益，恩恵；給付金",
-          "example": "A flexible schedule is a benefit of this job.",
-          "thinkingFlow": "この仕事の恩恵としてスケジュールの柔軟性が挙げられることから、「benefit」は利点・恩恵を表す。"
+          "example": "Exercise has a huge benefit for your health. We also receive a benefit from healthy diets.",
+          "wordMeanings": "Exercise 運動 has 持っている a 一つの huge 大きな benefit 利益 for のため your あなたの health 健康 We 私たちは also も receive 受け取る a 一つの benefit 恩恵 from から healthy 健康的な diets 食事"
         },
         {
+          "id": 62,
           "word": "theory",
           "meaning": "学説；理論；原理；推測",
-          "example": "His new theory attempts to explain global warming.",
-          "thinkingFlow": "地球温暖化を説明する学説の文脈から、「theory」は仮説や理論を意味する。"
+          "example": "This new theory challenges old ideas. A solid theory often requires testing.",
+          "wordMeanings": "This この new 新しい theory 理論 challenges 異議を唱える old 古い ideas 考え A 一つの solid 確かな theory 理論 often しばしば requires 要求する testing テスト"
         },
         {
+          "id": 63,
           "word": "issue",
           "meaning": "問題（点）；発行（物）；発表",
-          "example": "We must address the issue of air pollution.",
-          "thinkingFlow": "大気汚染という問題に取り組む文脈から、「issue」は課題や争点を指す。"
+          "example": "We discussed the issue at length. The next issue of the magazine appears tomorrow.",
+          "wordMeanings": "We 私たちは discussed 議論した the その issue 問題 at で length 十分に The その next 次の issue 発行物 of の magazine 雑誌 appears 現れる tomorrow 明日"
         },
         {
+          "id": 64,
           "word": "experiment",
           "meaning": "実験",
-          "example": "They conducted an experiment to test the new drug.",
-          "thinkingFlow": "新薬を試験する文脈から、「experiment」は科学的な実験を意味する。"
+          "example": "Scientists conducted an experiment on plant growth. The experiment showed interesting results.",
+          "wordMeanings": "Scientists 科学者 conducted 行った an 一つの experiment 実験 on で plant 植物 growth 成長 The その experiment 実験 showed 示した interesting 興味深い results 結果"
         },
         {
+          "id": 65,
           "word": "article",
           "meaning": "記事；条項；品物",
-          "example": "I read an interesting article about space travel.",
-          "thinkingFlow": "宇宙旅行に関する興味深い記事の文脈から、「article」は新聞や雑誌などの記事を指す。"
+          "example": "I read an article about global warming. That article explained its causes and effects.",
+          "wordMeanings": "I 私 read 読んだ an 一つの article 記事 about について global 地球規模の warming 温暖化 That あの article 記事 explained 説明した its それの causes 原因 and と effects 影響"
         },
         {
+          "id": 66,
           "word": "focus",
           "meaning": "焦点；関心の的",
-          "example": "Let's focus on the main problem first.",
-          "thinkingFlow": "最重要課題に意識を集中する文脈から、「focus」は焦点を当てることだと分かる。"
+          "example": "Our main focus is customer satisfaction. Try to keep your focus on key objectives.",
+          "wordMeanings": "Our 私たちの main 主要な focus 焦点 is である customer 顧客 satisfaction 満足 Try 試す to 〜すること keep 保つ your あなたの focus 焦点 on に key 重要な objectives 目標"
         },
         {
+          "id": 67,
           "word": "subject",
           "meaning": "話題；科目；主題；被験者",
-          "example": "History is my favorite subject in school.",
-          "thinkingFlow": "学校科目として「subject」は学問の科目を指すと理解できる。"
+          "example": "Math is her favorite subject at school. This subject often challenges many students.",
+          "wordMeanings": "Math 数学 is である her 彼女の favorite お気に入りの subject 科目 at で school 学校 This この subject 話題 often しばしば challenges 難題を与える many 多くの students 学生"
         },
         {
+          "id": 68,
           "word": "project",
           "meaning": "計画；事業；研究計画",
-          "example": "Our next project involves renewable energy.",
-          "thinkingFlow": "次の計画が再生可能エネルギーを伴う文脈から、「project」は大きな計画や事業を表す。"
+          "example": "They launched a project to clean the river. The project involves many volunteers.",
+          "wordMeanings": "They 彼ら launched 始めた a 一つの project 計画 to 〜すること clean きれいにする river 川 The その project 計画 involves 関与させる many 多くの volunteers ボランティア"
         },
         {
+          "id": 69,
           "word": "quality",
           "meaning": "質；特質",
-          "example": "We should always aim for the best quality products.",
-          "thinkingFlow": "最良の製品を追求する文脈から、「quality」は品質・質を示す。"
+          "example": "We focus on quality rather than quantity. High quality attracts loyal customers.",
+          "wordMeanings": "We 私たちは focus 焦点を当てる on に quality 質 rather むしろ than より quantity 量 High 高い quality 質 attracts 引き寄せる loyal 忠実な customers 顧客"
         },
         {
+          "id": 70,
           "word": "role",
           "meaning": "役割；（俳優などの）役",
-          "example": "She has a key role in the new project.",
-          "thinkingFlow": "新プロジェクトで重要な役割を担う文脈から、「role」は役目や役割を意味する。"
+          "example": "He played a major role in the team's victory. Every member has a crucial role.",
+          "wordMeanings": "He 彼 played 演じた a 一つの major 重要な role 役割 in で team's チームの victory 勝利 Every すべての member メンバー has 持つ a 一つの crucial 決定的な role 役割"
         },
         {
+          "id": 71,
           "word": "term",
           "meaning": "（専門）用語；条件；間柄；学期",
-          "example": "That medical term is hard to understand.",
-          "thinkingFlow": "難しい医学用語の文脈から、「term」は専門的な言葉を示す。"
+          "example": "This medical term is difficult to understand. The term also appears in legal documents.",
+          "wordMeanings": "This この medical 医学の term 用語 is である difficult 難しい to 〜すること understand 理解する The その term 用語 also も appears 現れる in で legal 法的な documents 書類"
         },
         {
+          "id": 72,
           "word": "statement",
           "meaning": "声明；主張；明細書",
-          "example": "The company released a statement about the incident.",
-          "thinkingFlow": "会社が事件についての公式文を出す文脈から、「statement」は公式発表や声明を指す。"
+          "example": "The company issued a statement about the accident. This statement clarifies its position.",
+          "wordMeanings": "The その company 会社 issued 発表した a 一つの statement 声明 about について accident 事故 This この statement 声明 clarifies 明らかにする its それの position 立場"
         },
         {
+          "id": 73,
           "word": "material",
           "meaning": "材料，素材；資料；生地",
-          "example": "We need new material to build a stronger bridge.",
-          "thinkingFlow": "より強固な橋を作る材料の文脈から、「material」は物理的素材を意味する。"
+          "example": "We used strong material for the new bridge. This material withstands harsh weather.",
+          "wordMeanings": "We 私たちは used 使った strong 強い material 材料 for のため new 新しい bridge 橋 This この material 材料 withstands 耐える harsh 厳しい weather 天候"
         },
         {
+          "id": 74,
           "word": "evidence",
           "meaning": "証拠",
-          "example": "The detective found new evidence at the crime scene.",
-          "thinkingFlow": "犯罪現場で証拠を発見する文脈から、「evidence」は何かを立証するための手掛かり。"
+          "example": "Investigators found evidence at the crime scene. The evidence confirms the suspect's presence.",
+          "wordMeanings": "Investigators 捜査官 found 見つけた evidence 証拠 at で crime 犯罪 scene 現場 The その evidence 証拠 confirms 確証する suspect's 容疑者の presence 存在"
         },
         {
+          "id": 75,
           "word": "source",
           "meaning": "源，根源；出所，情報源",
-          "example": "We must identify the source of this information.",
-          "thinkingFlow": "情報の出所を確かめる文脈から、「source」は起点や由来を指す。"
+          "example": "Water is the main source of life. We must verify each source of information.",
+          "wordMeanings": "Water 水 is である the その main 主要な source 源 of の life 生命 We 私たちは must 〜しなければならない verify 検証する each それぞれの source 情報源 of の information 情報"
         },
         {
+          "id": 76,
           "word": "community",
           "meaning": "（共同）社会，～界；地域社会；地域住民",
-          "example": "This community organizes an annual festival.",
-          "thinkingFlow": "地域で祭りを行う文脈から、「community」は共通の地域や集団を意味する。"
+          "example": "Our community supports local businesses. A strong community helps everyone thrive.",
+          "wordMeanings": "Our 私たちの community 地域社会 supports 支援する local 地元の businesses 事業 A 一つの strong 強い community 地域社会 helps 助ける everyone みんな thrive 成長する"
         },
         {
+          "id": 77,
           "word": "technology",
           "meaning": "科学技術；応用技術",
-          "example": "Modern technology has changed our lives dramatically.",
-          "thinkingFlow": "生活を大きく変える科学技術の文脈から、「technology」はテクノロジーだと分かる。"
+          "example": "Modern technology changes our daily lives quickly. We rely on technology for convenience.",
+          "wordMeanings": "Modern 現代の technology 科学技術 changes 変える our 私たちの daily 毎日の lives 生活 quickly すばやく We 私たちは rely 頼る on で technology 科学技術 for のため convenience 便利さ"
         },
         {
+          "id": 78,
           "word": "culture",
           "meaning": "文化；教養；耕作；養殖；培養",
-          "example": "I'm interested in Japanese culture and traditions.",
-          "thinkingFlow": "日本の伝統や文化への興味という文脈から、「culture」は国や地域の文化を示す。"
+          "example": "Each country has a unique culture. Exploring another culture broadens our perspective.",
+          "wordMeanings": "Each それぞれの country 国 has 持つ a 一つの unique 独特の culture 文化 Exploring 探索すること another 別の culture 文化 broadens 広げる our 私たちの perspective 視野"
         },
         {
+          "id": 79,
           "word": "appropriate",
           "meaning": "適切な",
-          "example": "Please wear appropriate clothes for the ceremony.",
-          "thinkingFlow": "式典にふさわしい服装の文脈から、「appropriate」は適切・妥当な意味を持つ。"
+          "example": "Please wear appropriate clothing for the ceremony. It's important to choose appropriate words too.",
+          "wordMeanings": "Please お願いします wear 着る appropriate 適切な clothing 服装 for のため ceremony 式典 It's それは is である important 重要な to 〜すること choose 選ぶ appropriate 適切な words 言葉 too も"
         },
         {
+          "id": 80,
           "word": "likely",
           "meaning": "ありそうな",
-          "example": "It is likely to rain tomorrow.",
-          "thinkingFlow": "天気予報の文脈で「雨が降りそう」と示しているので、「likely」は起こり得る意味。"
+          "example": "It's likely to rain today. She is likely the best candidate for the job.",
+          "wordMeanings": "It's それは is である likely ありそうな to 〜すること rain 雨が降る today 今日 She 彼女 is である likely ありそうな the その best 最良の candidate 候補 for のため job 仕事"
         },
         {
+          "id": 81,
           "word": "possible",
           "meaning": "可能な；可能性のある",
-          "example": "It is possible to finish this task by Monday.",
-          "thinkingFlow": "月曜まで終えられるかもしれない文脈から、「possible」は実現可能だと分かる。"
+          "example": "It's possible to finish this task by noon. Many outcomes are possible in this scenario.",
+          "wordMeanings": "It's それは is である possible 可能な to 〜すること finish 終える this この task 作業 by までに noon 正午 Many 多くの outcomes 結果 are である possible 可能な in で this この scenario 状況"
         },
         {
+          "id": 82,
           "word": "individual",
           "meaning": "個々の；個人の",
-          "example": "Each individual person has unique strengths.",
-          "thinkingFlow": "人それぞれが違う強みを持つ文脈から、「individual」は個々を指す意味。"
+          "example": "Every individual has unique strengths. We must respect individual differences.",
+          "wordMeanings": "Every すべての individual 個人 has 持っている unique 独特の strengths 強み We 私たちは must 〜しなければならない respect 尊重する individual 個々の differences 違い"
         },
         {
+          "id": 83,
           "word": "public",
           "meaning": "公の；公衆の；公開の",
-          "example": "This is a public park, so everyone can enter.",
-          "thinkingFlow": "公園を誰でも利用できる文脈から、「public」は公共の意味を持つ。"
+          "example": "He spoke about the plan at a public meeting. Public interest in the matter is growing.",
+          "wordMeanings": "He 彼 spoke 話した about について plan 計画 at で a 一つの public 公の meeting 集会 Public 公衆の interest 関心 in で matter 事柄 is である growing 成長している"
         },
         {
+          "id": 84,
           "word": "common",
           "meaning": "共通の；普通の；一般の",
-          "example": "It's common to see tourists here in summer.",
-          "thinkingFlow": "夏に観光客をよく見かける文脈から、「common」は普通によくある意味。"
+          "example": "Common interests bring people together. It's common to greet others politely.",
+          "wordMeanings": "Common 共通の interests 興味 bring もたらす people 人々 together 一緒に It's それは is である common 一般的な to 〜すること greet 挨拶する others 他の人 politely 礼儀正しく"
         },
         {
+          "id": 85,
           "word": "certain",
           "meaning": "確信して；確かな；ある；一定の",
-          "example": "I'm certain we can succeed with enough effort.",
-          "thinkingFlow": "成功を確信する文脈から、「certain」は確信・確実を表す。"
+          "example": "I am certain we can finish on time. Under certain conditions, we must act quickly.",
+          "wordMeanings": "I 私 am である certain 確信している we 私たちは can できる finish 終える on で time 時間 Under の下 certain 一定の conditions 状況 we 私たちは must 〜しなければならない act 行動する quickly 素早く"
         },
         {
+          "id": 86,
           "word": "similar",
           "meaning": "似ている，類似した；同様の",
-          "example": "These two ideas are quite similar in concept.",
-          "thinkingFlow": "2つのアイデアが似ている文脈から、「similar」は類似を示す。"
+          "example": "Their culture is similar to ours. These paintings look similar in style.",
+          "wordMeanings": "Their 彼らの culture 文化 is である similar 似ている to に ours 私たちの These これらの paintings 絵 look 見える similar 類似した in で style スタイル"
         },
         {
+          "id": 87,
           "word": "recent",
           "meaning": "最近の",
-          "example": "The recent news has shocked everyone.",
-          "thinkingFlow": "最近の出来事が皆を驚かせた文脈から、「recent」は近頃の出来事を示す。"
+          "example": "I read a recent study about nutrition. The recent findings are very revealing.",
+          "wordMeanings": "I 私 read 読んだ a 一つの recent 最近の study 研究 about について nutrition 栄養 The その recent 最近の findings 発見 are である very とても revealing 明らかな"
         },
         {
+          "id": 88,
           "word": "major",
           "meaning": "主要な；大きい（ほうの）；長調の",
-          "example": "We have a major problem with our system.",
-          "thinkingFlow": "システムに主要な問題がある文脈から、「major」は大きな・重大な意味と分かる。"
+          "example": "The company made a major announcement today. It will have a major impact on the market.",
+          "wordMeanings": "The その company 会社 made 行った a 一つの major 主要な announcement 発表 today 今日 It それ will 〜するだろう have 持つ a 一つの major 主要な impact 影響 on で market 市場"
         },
         {
+          "id": 89,
           "word": "patient",
           "meaning": "忍耐強い；勤勉な",
-          "example": "You must be patient when learning new skills.",
-          "thinkingFlow": "新しいことを習得するには我慢が必要という文脈から、「patient」は忍耐強いを表す。"
+          "example": "You must be patient when learning new skills. A patient attitude leads to steady progress.",
+          "wordMeanings": "You あなた must 〜しなければならない be である patient 忍耐強い when とき learning 学ぶ new 新しい skills 技能 A 一つの patient 忍耐強い attitude 態度 leads 導く to に steady 着実な progress 進歩"
         },
         {
+          "id": 90,
           "word": "particular",
           "meaning": "特定の；特別の；やかましい",
-          "example": "He is very particular about the design details.",
-          "thinkingFlow": "デザインの細部にこだわる文脈から、「particular」は特にこだわりが強い意味。"
+          "example": "I like this particular brand of coffee. Some people are very particular about taste.",
+          "wordMeanings": "I 私 like 好き this この particular 特定の brand ブランド of の coffee コーヒー Some いくつかの people 人々 are である very とても particular やかましい about について taste 味"
         },
         {
+          "id": 91,
           "word": "physical",
           "meaning": "身体の；物質的な；物理学の",
-          "example": "Regular exercise contributes to good physical health.",
-          "thinkingFlow": "運動が健康に良い文脈から、「physical」は身体に関する意味を示す。"
+          "example": "Regular exercise improves physical health. We also need physical rest for recovery.",
+          "wordMeanings": "Regular 定期的な exercise 運動 improves 改善する physical 身体の health 健康 We 私たちは also も need 必要とする physical 物質的な rest 休息 for のため recovery 回復"
         },
         {
+          "id": 92,
           "word": "various",
           "meaning": "さまざまな；いくつかの",
-          "example": "We discussed various topics in the meeting.",
-          "thinkingFlow": "会議で多岐にわたる話題を扱う文脈から、「various」はいろいろな種類を示す。"
+          "example": "There are various methods to learn languages. We tested various approaches in class.",
+          "wordMeanings": "There そこ are ある various さまざまな methods 方法 to 〜すること learn 学習する languages 言語 We 私たちは tested テストした various いくつかの approaches 手法 in で class 授業"
         },
         {
+          "id": 93,
           "word": "available",
           "meaning": "手に入る；利用できる；手が空いている",
-          "example": "This book is available at the local library.",
-          "thinkingFlow": "図書館でその本が利用可能な文脈から、「available」は入手や利用が可能という意味。"
+          "example": "This product is now available worldwide. I am available to meet later.",
+          "wordMeanings": "This この product 製品 is である now 今 available 利用できる worldwide 世界中で I 私 am である available 手が空いている to 〜すること meet 会う later 後で"
         },
         {
+          "id": 94,
           "word": "native",
           "meaning": "出生地の；原産の；生得の",
-          "example": "He is a native speaker of Spanish.",
-          "thinkingFlow": "スペイン語を生まれながらに話す文脈から、「native」は母語・原産の意味を持つ。"
+          "example": "She is a native speaker of Spanish. Native plants often grow best in local soil.",
+          "wordMeanings": "She 彼女 is である a 一つの native 母語の speaker 話者 of の Spanish スペイン語 Native 原産の plants 植物 often しばしば grow 成長する best 最もよく in で local 地元の soil 土"
         },
         {
+          "id": 95,
           "word": "political",
           "meaning": "政治（上）の",
-          "example": "We should avoid political arguments at family dinners.",
-          "thinkingFlow": "家庭の食事で政治的な議論を避ける文脈から、「political」は政治に関する意味。"
+          "example": "He is active in political debates. Political decisions affect everyone in society.",
+          "wordMeanings": "He 彼 is である active 活発な in で political 政治的な debates 議論 Political 政治的な decisions 決定 affect 影響する everyone みんな in で society 社会"
         },
         {
+          "id": 96,
           "word": "due",
           "meaning": "予定された；（支払）期日で；しかるべき",
-          "example": "My report is due next Monday.",
-          "thinkingFlow": "提出物の期限が来週月曜という文脈から、「due」は期日が予定されている意味だと分かる。"
+          "example": "This assignment is due on Monday. The payment is also due next week.",
+          "wordMeanings": "This この assignment 課題 is である due 期限の on に Monday 月曜 The その payment 支払い is である also も due 期日 next 次の week 週"
         },
         {
+          "id": 97,
           "word": "blank",
           "meaning": "空白の；無表情な；がらんとした",
-          "example": "The page was almost blank except for the title.",
-          "thinkingFlow": "タイトル以外何も書かれていない文脈から、「blank」は空白の意味。"
+          "example": "Please fill in the blank space. Her face was blank when she heard the news.",
+          "wordMeanings": "Please お願いします fill 埋める in に the その blank 空白の space 場所 Her 彼女の face 顔 was である blank 無表情な when とき she 彼女 heard 聞いた news ニュース"
         },
         {
+          "id": 98,
           "word": "ancient",
           "meaning": "古代の；昔からの",
-          "example": "We visited ancient ruins during our trip.",
-          "thinkingFlow": "古代遺跡を見学する文脈から、「ancient」は大昔のものを指す。"
+          "example": "They discovered an ancient city underground. Ancient ruins often reveal lost cultures.",
+          "wordMeanings": "They 彼ら discovered 発見した an 一つの ancient 古代の city 都市 underground 地下の Ancient 古代の ruins 遺跡 often しばしば reveal 明らかにする lost 失われた cultures 文化"
         },
         {
+          "id": 99,
           "word": "correct",
           "meaning": "正しい；適切な",
-          "example": "Please check if this answer is correct.",
-          "thinkingFlow": "答えが正しいかどうか確認する文脈から、「correct」は正しさや適切さを表す。"
+          "example": "That answer is correct according to the manual. Always use the correct tools for the job.",
+          "wordMeanings": "That あの answer 答え is である correct 正しい according によれば to 〜に the その manual マニュアル Always 常に use 使う the その correct 適切な tools 道具 for のため job 仕事"
         },
         {
+          "id": 100,
           "word": "despite",
           "meaning": "～にもかかわらず（≒ in spite of）",
-          "example": "We continued our journey despite the bad weather.",
-          "thinkingFlow": "悪天候でも旅を続ける文脈から、「despite」は“～にもかかわらず”を意味する。"
+          "example": "We continued the event despite the rain. Despite obstacles, success is still possible.",
+          "wordMeanings": "We 私たちは continued 続けた the その event 行事 despite にもかかわらず rain 雨 Despite にもかかわらず obstacles 障害 success 成功 is である still まだ possible 可能な"
         }
       ]
     }
